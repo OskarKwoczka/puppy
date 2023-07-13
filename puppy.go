@@ -19,3 +19,6 @@ func BigBark() string {
 func From11() {
 	fmt.Println("I'm from v1.1.0")
 }
+func From13() {
+	fmt.Println("I'm from v1.3.0")
+}
