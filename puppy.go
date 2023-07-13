@@ -1,6 +1,8 @@
 package puppy
 
 import (
+	"fmt"
+
 	"github.com/OskarKwoczka/dog"
 )
 
@@ -13,4 +15,7 @@ func Barks() string {
 
 func BigBark() string {
 	return dog.WhenGrowUp(Barks())
+}
+func From11() {
+	fmt.Println("I'm from v1.1.0")
 }
